@@ -22,7 +22,9 @@ class TestFunctions(unittest.TestCase):
 
     def test_class(self):
         " a test case for the Class-based function "
-        pass
+        a = Adder()
+        result = a(10,50)
+        self.assertEqual(result, 60)
 
 # 7. (optional) for convenience, make the testing module "runnable", to run
 #    all the tests in this module.
