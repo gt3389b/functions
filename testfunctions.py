@@ -22,7 +22,7 @@ class TestFunctions(unittest.TestCase):
 
     def test_class(self):
         " a test case for the Class-based function "
-        a = Adder()
+        a = functions.Adder()
         result = a(10,50)
         self.assertEqual(result, 60)
 
